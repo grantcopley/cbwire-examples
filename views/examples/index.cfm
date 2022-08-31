@@ -72,5 +72,11 @@
     <div class="col-3 pt-3">
         <a class="btn btn-primary w-100" href="/examples/DirectiveInit">:init</a>
     </div>
+    <div class="col-12 mt-4">
+        <h2>Advanced</h2>
+    </div>
+    <div class="col-3 pt-3">
+        <a class="btn btn-primary w-100" href="/examples/S3Dropdown">S3 Dropdown</a>
+    </div>
 </div>
 </cfoutput>
