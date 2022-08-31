@@ -5,8 +5,7 @@ component extends="cbwire.models.Component" {
     data = {
         "selectedBackup": "",
         "backups": [],
-        "success": false,
-        "processing": false
+        "success": false
     }
 
     function loadBackups() {
@@ -23,10 +22,8 @@ component extends="cbwire.models.Component" {
     }
 
     function restoreBackup() {
-        data.processing = true;
         sleep( 5000 ); // Sleep to simulate restoring the database backup
         data.success = true;
-        data.processing = false;
     }
 
 }
