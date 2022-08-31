@@ -49,6 +49,9 @@
 			border-color: ##eab308;
 			background-color: ##eab308;
 		}
+		.back-button {
+			font-size: 2rem;
+		}
 		.hljs {
 			padding: 10px;
 			border-radius: 10px;
