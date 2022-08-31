@@ -1,0 +1,39 @@
+{
+    "name":"My ColdBox App",
+    "version":"1.0.0",
+    "author":"You",
+    "location":"",
+    "slug":"my-coldbox-app",
+    "createPackageDirectory":false,
+    "type":"mvc",
+    "keywords":"",
+    "homepage":"",
+    "documentation":"",
+    "repository":{
+        "type":"",
+        "url":""
+    },
+    "bugs":"",
+    "shortDescription":"",
+    "contributors":[],
+    "ignore":[],
+    "devDependencies":{
+        "testbox":"*",
+        "commandbox-dotenv":"*",
+        "commandbox-cfconfig":"*",
+        "commandbox-cfformat":"*"
+    },
+    "installPaths":{
+        "coldbox":"coldbox/",
+        "testbox":"testbox/",
+        "cbwire":"modules/cbwire/"
+    },
+    "dependencies":{
+        "coldbox":"^6.0.0",
+        "cbwire":"2.x"
+    },
+    "scripts":{},
+    "testbox":{
+        "runner":"/tests/runner.cfm"
+    }
+}

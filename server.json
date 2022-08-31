@@ -1,0 +1,19 @@
+{
+    "name":"cbwire-examples",
+    "app":{
+        "serverHomeDirectory":".engine/lucee5",
+        "cfengine":"lucee@5"
+    },
+    "web":{
+        "http":{
+            "port":"60299"
+        },
+        "rewrites":{
+            "enable":"true"
+        }
+    },
+    "openBrowser":"true",
+    "cfconfig":{
+        "file":".cfconfig.json"
+    }
+}
