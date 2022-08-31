@@ -9,6 +9,7 @@
 	<link href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/styles/default.min.css" rel="stylesheet">
 	<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/highlight.min.js"></script>
 	<script src="https://kit.fontawesome.com/7e32a713f5.js" crossorigin="anonymous"></script>
+	<script src="//unpkg.com/alpinejs" defer></script>
 	<script>hljs.highlightAll();</script>
 	<script type="module">
 		import hotwiredTurbo from 'https://cdn.skypack.dev/@hotwired/turbo';
