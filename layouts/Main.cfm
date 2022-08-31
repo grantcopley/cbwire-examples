@@ -37,7 +37,7 @@
 		h2 {
 			color: ##ffffff;
 		}
-		input[type=text], textarea {
+		input[type=text], input[type=search], textarea {
 			width: 50% !important;
 		}
 		.btn-primary, .btn-primary:focus {
@@ -52,10 +52,11 @@
 		.hljs {
 			padding: 10px;
 			border-radius: 10px;
+			background-color: rgba( 255, 255, 255, 0.92 )
 		}
 		.example {
 			padding: 40px 20px;
-			background-color: ##333333;
+			background-color: rgba( 51, 51, 51, 0.92 );
 			color: ##ffffff;
 			border: 2px solid ##333333;
 			border-radius: 10px;
