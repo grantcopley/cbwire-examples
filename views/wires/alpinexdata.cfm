@@ -2,7 +2,7 @@
     <div x-data="{ open: false }">
         <button @click="open = !open">Toggle</button>
     
-        <span x-show="open">
+        <span x-show="open" x-transition.duration.500ms>
             <div>Here's some content</div>
             <cfif args.finished>
                 <div>Done</div>
