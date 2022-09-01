@@ -16,7 +16,6 @@
                     <td>Path</td>
                     <td>#args.parsedURI.getPath()#</td>
                 </tr>
-                </tr>
                 <tr>
                     <td>Query</td>
                     <td>#args.parsedURI.getQuery()#</td>
