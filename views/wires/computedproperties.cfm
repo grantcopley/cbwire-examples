@@ -7,5 +7,7 @@
                 <li>#firstname# #lastname#</li>
             </cfloop>
         </ul>
+
+        <button wire:click="clearSpeakers" class="btn btn-primary">Clear Speakers</button>
     </div>
 </cfoutput>

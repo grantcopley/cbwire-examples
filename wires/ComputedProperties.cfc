@@ -1,5 +1,10 @@
 component extends="cbwire.models.Component" {
 
+    // Data properties
+    data = {
+        "clear": false
+    };
+
     // Computed properties
     computed = {
         "conference": function() {
@@ -8,7 +13,18 @@ component extends="cbwire.models.Component" {
         "speakers": getSpeakers
     }
 
+    function clearSpeakers() {
+        data.clear = true;
+    }
+
     function getSpeakers() {
+
+        var data = getDataProperties();
+
+        if ( data.clear ) {
+            return queryNew( "firstname,lastname", "varchar,varchar", [] );
+        }
+
         return queryNew( 
             "firstname,lastname",
             "varchar,varchar",
