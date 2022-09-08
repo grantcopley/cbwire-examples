@@ -4,11 +4,7 @@ component
 {
 
     function goElsewhere(){
-        return relocate( url = "https://www.google.com" );
-    }
-
-    function renderIt(){
-        return renderView( "wires/relocate" );
+        return relocate( event="examples.index" );
     }
 
 }
