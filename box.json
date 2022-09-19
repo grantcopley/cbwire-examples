@@ -29,7 +29,7 @@
         "cbwire":"modules/cbwire/"
     },
     "dependencies":{
-        "coldbox":"^6.0.0",
+        "coldbox":"6.x",
         "cbwire":"2.x"
     },
     "scripts":{},
