@@ -6,6 +6,7 @@ component extends="cbwire.models.Component" {
         "lastname": "Copley"
     };
 
+    // Computed properties
     computed = {
         "fullname": function( data ) {
             return data.firstname & " " & data.lastname;
