@@ -24,6 +24,10 @@
     <div class="col-3 pt-3">
         <a class="btn btn-primary w-100" href="/examples/Relocate">Relocate</a>
     </div>
+    <div class="col-3 pt-3">
+        <a class="btn btn-primary w-100" href="/examples/OnRender">onRender</a>
+    </div>
+
     <div class="col-12 mt-4">
         <h2>Forms</h2>
     </div>
@@ -86,6 +90,9 @@
     </div>
     <div class="col-3 pt-3">
         <a class="btn btn-primary w-100" href="/examples/ParseURI">Parse URI</a>
+    </div>
+    <div class="col-3 pt-3">
+        <a class="btn btn-primary w-100" href="/examples/NestedComponent">Nested Components</a>
     </div>
     <div class="col-12 mt-4">
         <h2>Alpine</h2>
