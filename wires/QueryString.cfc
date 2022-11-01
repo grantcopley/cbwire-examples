@@ -4,8 +4,7 @@ component extends="cbwire.models.Component" {
 
     queryString = [ "search" ];
 
-
-    function mount( event ){
+    function onMount( event ){
         data[ "search" ] = event.getValue( "search", "" );
 
     }
