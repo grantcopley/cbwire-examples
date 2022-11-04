@@ -12,6 +12,7 @@ component extends="cbwire.models.Component" {
     }
 
     function play() {
+        emit( "someEvent" );
         data.played = true;
     }
 
