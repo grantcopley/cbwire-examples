@@ -20,4 +20,8 @@ component extends="cbwire.models.Component" {
             }
         }
     }
+
+    function reset() {
+        session.messages = [];
+    }
 }
