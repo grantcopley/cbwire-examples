@@ -3,9 +3,9 @@
         Timestamp: #now()#
         <button wire:click="runLongProcess">Run Long Process</button>
         <button wire:click="reset">Reset</button>
-        <cfif arrayLen( args.messages )>
+        <cfif arrayLen( args.computed.messages() )>
             <ul>
-                <cfloop array="#args.messages#" index="message">
+                <cfloop array="#args.computed.messages()#" index="message">
                     <li>#message#</li>
                 </cfloop>
             </ul>

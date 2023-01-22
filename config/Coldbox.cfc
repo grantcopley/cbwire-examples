@@ -72,7 +72,7 @@ component {
 		 *
 		 * Uncomment to use, but make sure your .env ENVIRONMENT key is also removed.
 		 */
-		// environments = { development : "localhost,^127\.0\.0\.1" };
+		environments = { development : "localhost,^127\.0\.0\.1" };
 
 		/**
 		 * --------------------------------------------------------------------------
@@ -137,7 +137,11 @@ component {
 		 *
 		 * }
 		 */
-		moduleSettings = {};
+		moduleSettings = {
+			"cbwire": {
+				"useComputedPropertiesProxy": true
+			}
+		};
 
 		/**
 		 * --------------------------------------------------------------------------

@@ -6,10 +6,6 @@ component extends="cbwire.models.Component" {
 
     function onMount( event ){
         data[ "search" ] = event.getValue( "search", "" );
-
-    }
-    function renderIt(){
-        return this.renderView( "wires/queryString" );
     }
 
 }

@@ -99,7 +99,7 @@
         <a class="btn btn-primary w-100" href="/examples/ParseURI">Parse URI</a>
     </div>
     <div class="col-3 pt-3">
-        <a class="btn btn-primary w-100" href="/examples/NestedComponent">Nested Components</a>
+        <a class="btn btn-primary w-100" href="/examples/NestedComponents">Nested Components</a>
     </div>
     <div class="col-3 pt-3">
         <a class="btn btn-primary w-100" href="/examples/HeadlessCBWIRE">Headless CBWIRE</a>

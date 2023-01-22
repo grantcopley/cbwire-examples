@@ -19,8 +19,8 @@ component extends="cbwire.models.Component" {
     function onRender( args ) {
         return "
             <div>
-                <h1>Welcome #args.fullname#</h1>
-                <h2>Can I just call you #args.firstname#?</h2>
+                <h1>Welcome #args.firstname# #args.lastname#</h1>
+                <h2>Can I just call you #args.computed.fullname()#?</h2>
             </div>
         ";
     }
