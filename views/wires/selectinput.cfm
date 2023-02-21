@@ -7,7 +7,8 @@
         </select>
 
         <button wire:click="setAsBatman">Set as Batman</button>
-        <button wire:click="clearBatman">Set as Batman</button>
+        <button wire:click="setAsSuperman">Set as Superman</button>
+        <button wire:click="clear">Clear</button>
 
         <cfif args.hero eq "Batman">
             <div class="mt-4 alert alert-primary">Bruce Wayne!</div>

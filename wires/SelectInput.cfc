@@ -8,7 +8,11 @@ component extends="cbwire.models.Component" {
         data.hero = "Batman";
     }
 
-    function clearBatman() {
+    function setAsSuperman() {
         data.hero = "Superman";
+    }
+
+    function clear() {
+        reset();
     }
 }
