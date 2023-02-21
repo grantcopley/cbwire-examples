@@ -1,6 +1,7 @@
 component extends="cbwire.models.Component" {
 
     data = {
+        "createdAt": now(),
         "clicked": false
     };
 
