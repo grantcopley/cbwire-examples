@@ -20,16 +20,13 @@
         <a class="btn btn-primary w-100" href="/examples/DataBinding">Data Binding</a>
     </div>
     <div class="col-3 pt-3">
-        <a class="btn btn-primary w-100" href="/examples/Listeners">Listeners</a>
+        <a class="btn btn-primary w-100" href="/examples/JSListeners">JavaScript Listeners</a>
     </div>
     <div class="col-3 pt-3">
         <a class="btn btn-primary w-100" href="/examples/QueryString">Query String</a>
     </div>
     <div class="col-3 pt-3">
         <a class="btn btn-primary w-100" href="/examples/Relocate">Relocate</a>
-    </div>
-    <div class="col-3 pt-3">
-        <a class="btn btn-primary w-100" href="/examples/OnRender">onRender</a>
     </div>
 
     <div class="col-12 mt-4">

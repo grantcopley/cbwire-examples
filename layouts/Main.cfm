@@ -12,9 +12,6 @@
 	<script src="https://kit.fontawesome.com/7e32a713f5.js" crossorigin="anonymous"></script>
 	<script src="//unpkg.com/alpinejs" defer></script>
 	<script>hljs.highlightAll();</script>
-	<script type="module">
-		import hotwiredTurbo from 'https://cdn.skypack.dev/@hotwired/turbo';
-	</script>
 	<style type="text/css">
 		html {
 			height: 100%;
@@ -89,7 +86,7 @@
 		</div>
 	</div>
 	#wireScripts()#
-	<script src="https://cdn.jsdelivr.net/gh/livewire/turbolinks@v0.1.x/dist/livewire-turbolinks.js" data-turbolinks-eval="false" data-turbo-eval="false"></script>
+	<script src="https://player.vimeo.com/api/player.js"></script>
 	<cfif structKeyExists( prc, "viewJavascript" )>
 		#prc.viewJavascript#
 	</cfif>
