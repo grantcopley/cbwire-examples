@@ -19,7 +19,7 @@
 		}
 		body {
 			
-			background: url(/includes/images/bg.jpg);
+			background: url(/includes/images/bg-overview.jpg);
 			background-repeat: no-repeat;
 			background-size: 100%;
 			background-position: bottom;
@@ -40,13 +40,13 @@
 			width: 50% !important;
 		}
 		.btn-primary, .btn-primary:focus {
-			border-color: ##fcd34d;
-			background-color: ##fcd34d;
+			border-color: ##e8fea7;
+			background-color: ##e8fea7;
 			color: ##000000;
 		}
 		.btn-primary:hover {
-			border-color: ##eab308;
-			background-color: ##eab308;
+			border-color: ##dcfd7b;
+			background-color: ##dcfd7b;
 		}
 		.back-button {
 			font-size: 2rem;
@@ -70,7 +70,7 @@
 	<div class="container pt-3 pb-5">
 		<div class="row">
 			<div class="col-6">
-				<h1><a href="/" class="text-decoration-none">CBWIRE Examples</a></h1>
+				<h1><a href="/" class="text-decoration-none text-white">CBWIRE Examples</a></h1>
 			</div>
 			<div class="col-6">
 				<div class="d-flex flex-row-reverse mt-3">
@@ -79,6 +79,15 @@
 				</div>
 			</div>
 		</div>
+		<cfif flash.exists( "confirm" )>
+			<div class="row">
+				<div class="col-12">
+					<div class="alert alert-info">
+						#flash.get( "confirm" )#
+					</div>
+				</div>
+			</div>
+		</cfif>
 		<div class="row">
 			<div class="col-12">
 				#renderView()#

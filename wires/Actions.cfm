@@ -4,9 +4,8 @@
             <h1>#conference#</h1>
         </div>
         <div class="mt-4">
-            #updated#
             <a href="##" wire:click.prevent="changeConference" type="button" class="btn btn-primary me-2">Change Conference</button>
-            <a href="##" wire:click.prevent="addYear( '2022' )" type="button" class="btn btn-primary me-2">Add Year</button>
+            <a href="##" wire:click.prevent="addYear( '2023' )" type="button" class="btn btn-primary me-2">Add Year</button>
             <a href="##" wire:click.prevent="resetConference" class="btn btn-secondary">Reset</a>
         </div>
     </div>
@@ -15,8 +14,7 @@
 <cfscript>
     // Data properties
     data = {
-        "conference": "Into The Box",
-        "updated": false
+        "conference": "Into The Box"
     };
 
     // Actions
@@ -31,9 +29,5 @@
 
     function resetConference() {
         reset( "conference" );
-    }
-
-    function onHydrate() {
-        data.updated = true;
     }
 </cfscript>

@@ -16,7 +16,7 @@
 </cfoutput>
 
 <cfscript>
-    this.constraints = {
+    constraints = {
         "email": { required: true, type: "email" }
     };
 
