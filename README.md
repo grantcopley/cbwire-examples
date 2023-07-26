@@ -14,7 +14,7 @@ After cloning this repository, run this command using CommandBox to install all 
 box install
 ```
 
-You can start up a CFML quickly server using the command:
+You can start up a CFML server quickly using the command:
 
 ```
 box server start
