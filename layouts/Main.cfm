@@ -18,8 +18,7 @@
 			background-color: ##333333;
 		}
 		body {
-			
-			background: url(/includes/images/bg-overview.jpg);
+			background-color: ##000000;		
 			background-repeat: no-repeat;
 			background-size: 100%;
 			background-position: bottom;
