@@ -32,17 +32,17 @@
 </cfoutput>
 
 <cfscript>
+    // @startWire
     data = {
         "uri": "https://www.google.com"
     };
 
-    computed = {
-        "parsedURI": function() {
-            try {
-                return createObject( "java", "java.net.URI" ).init( data.uri );
-            } catch ( any e ) {
-                return "";
-            }
+    function parsedURI() computed {
+        try {
+            return createObject( "java", "java.net.URI" ).init( data.uri );
+        } catch ( any e ) {
+            return "";
         }
     }
+    // @endWire
 </cfscript>

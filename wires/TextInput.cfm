@@ -6,7 +6,9 @@
 </cfoutput>
 
 <cfscript>
+    // @startWire
     data = {
         "companyName": ""
     };
+    // @endWire
 </cfscript>

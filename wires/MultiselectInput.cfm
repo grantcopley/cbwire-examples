@@ -17,7 +17,9 @@
 </cfoutput>
 
 <cfscript>
+    // @startWire
     data = {
         "heroes": []
     };
+    // @endWire
 </cfscript>

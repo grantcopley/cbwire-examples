@@ -43,6 +43,7 @@
 </cfoutput>
 
 <cfscript>
+    // @startWire
     data = {
         "played": false,
         "seconds": 0
@@ -63,4 +64,5 @@
         session.seconds = seconds;
         data.seconds = val( seconds );
     }
+    // @endWire
 </cfscript>

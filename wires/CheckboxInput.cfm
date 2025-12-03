@@ -12,7 +12,9 @@
 </cfoutput>
 
 <cfscript>
+    // @startWire
     data = {
         "isChecked": false
     };
+    // @endWire
 </cfscript>

@@ -6,7 +6,9 @@
 </cfoutput>
 
 <cfscript>
+    // @startWire
     data = {
         "message" : "Data binding!"
     };
+    // @endWire
 </cfscript>

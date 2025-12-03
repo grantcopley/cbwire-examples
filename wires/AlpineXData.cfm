@@ -14,6 +14,7 @@
 </cfoutput>
 
 <cfscript>
+    // @startWire
     data = {
         "finished": false
     };
@@ -21,4 +22,5 @@
     function save() {
         data.finished = true;
     }
+    // @endWire
 </cfscript>

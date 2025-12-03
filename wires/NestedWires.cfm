@@ -9,6 +9,7 @@
 </cfoutput>
 
 <cfscript>
+    // @startWire
     data = {
         "createdAt": now(),
         "clicked": false
@@ -17,4 +18,5 @@
     function click() {
         data.clicked = true;
     }
+    // @endWire
 </cfscript>

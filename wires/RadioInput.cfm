@@ -16,7 +16,9 @@
 </cfoutput>
 
 <cfscript>
+    // @startWire
     data = {
         "isSharkWeek": "false"
     };
+    // @endWire
 </cfscript>

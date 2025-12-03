@@ -10,6 +10,7 @@
 </cfoutput>
 
 <cfscript>
+    // @startWire
     data = {
         "messages": []
     };
@@ -27,4 +28,5 @@
             }
         ];
     }
+    // @endWire
 </cfscript>

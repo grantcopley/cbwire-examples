@@ -5,6 +5,7 @@
 </cfoutput>
 
 <cfscript>
+    // @startWire
     data = {
         "search" : ""
     };
@@ -14,4 +15,5 @@
     function onMount( event ){
         data.search = event.getValue( "search", "" );
     }
+    // @endWire
 </cfscript>

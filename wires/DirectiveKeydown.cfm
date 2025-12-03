@@ -24,6 +24,7 @@
 </cfoutput>
 
 <cfscript>
+    // @startWire
     data = {
         "lastTyping": now()
     };
@@ -31,4 +32,5 @@
     function updateTime() {
         data.lastTyping = now();
     }
+    // @endWire
 </cfscript>

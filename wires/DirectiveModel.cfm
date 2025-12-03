@@ -26,7 +26,9 @@
 </cfoutput>
 
 <cfscript>
+    // @startWire
     data = {
         "message": "Default message"
     };
+    // @endWire
 </cfscript>

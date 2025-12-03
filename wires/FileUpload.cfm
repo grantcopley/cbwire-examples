@@ -22,6 +22,7 @@
 </cfoutput>
 
 <cfscript>
+    // @startWire
     data = {
         "myFile": ""
     };
@@ -32,4 +33,5 @@
             data.myFile.destroy();
         }
     }
+    // @endWire
 </cfscript>

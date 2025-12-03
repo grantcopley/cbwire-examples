@@ -13,8 +13,10 @@
 </cfoutput>
 
 <cfscript>
+    // @startWire
     function start() {
         // Simulate some long running process
         sleep( 5000 );
     }
+    // @endWire
 </cfscript>

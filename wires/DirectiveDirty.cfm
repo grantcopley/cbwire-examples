@@ -7,6 +7,7 @@
 </cfoutput>
 
 <cfscript>    
+    // @startWire
     data = {
         "foo": ""
     };
@@ -14,4 +15,5 @@
     function save() {
         data.foo = "";
     }
+    // @endWire
 </cfscript>

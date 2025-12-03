@@ -56,6 +56,7 @@
 </cfoutput>
 
 <cfscript>
+	// @startWire
 	data = {
 		selectedSection = ""
 	};
@@ -72,4 +73,5 @@
 	function unselect(){
 		data.selectedSection = "";
 	}
+	// @endWire
 </cfscript>

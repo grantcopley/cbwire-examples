@@ -11,6 +11,7 @@
 </cfoutput>
 
 <cfscript>
+    // @startWire
     data = {
         "clicks": 0
     };
@@ -18,4 +19,5 @@
     function increment() {
         data.clicks += 1;
     }
+    // @endWire
 </cfscript>

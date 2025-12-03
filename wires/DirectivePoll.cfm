@@ -13,7 +13,9 @@
 </cfoutput>
 
 <cfscript>
+    // @startWire
     data = {
         "seconds": 5
     };
+    // @endWire
 </cfscript>

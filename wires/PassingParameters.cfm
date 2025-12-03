@@ -8,6 +8,7 @@
 </cfoutput>
 
 <cfscript>
+    // @startWire
     data = {
         "counter": "0"
     };
@@ -19,4 +20,5 @@
     function increment() {
         data.counter += 1;
     }
+    // @endWire
 </cfscript>

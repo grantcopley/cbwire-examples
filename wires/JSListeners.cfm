@@ -15,6 +15,7 @@
 </cfoutput>
 
 <cfscript>
+    // @startWire
     // Data properties
     data = {
         "message": "Is it lunch time yet?"
@@ -25,4 +26,5 @@
         // Emit event from CBWIRE
         emit( "success", [ "Message sent." ] );
     }
+    // @endWire
 </cfscript>

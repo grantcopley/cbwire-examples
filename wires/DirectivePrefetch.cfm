@@ -10,6 +10,7 @@
 </cfoutput>
 
 <cfscript>
+    // @startWire
     data = {
         "showPreview": false
     };
@@ -17,4 +18,5 @@
     function togglePreview(){
         data.showPreview = true;
     }
+    // @endWire
 </cfscript>

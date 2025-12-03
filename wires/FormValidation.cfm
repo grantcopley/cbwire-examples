@@ -16,6 +16,7 @@
 </cfoutput>
 
 <cfscript>
+    // @startWire
     constraints = {
         "email": { required: true, type: "email" }
     };
@@ -29,4 +30,5 @@
         validateOrFail();
         data.success = true;
     }
+    // @endWire
 </cfscript>

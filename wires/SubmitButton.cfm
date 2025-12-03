@@ -8,6 +8,7 @@
 </cfoutput>
 
 <cfscript>
+    // @startWire
     data = {
         "message": ""
     };
@@ -15,4 +16,5 @@
     function clickButton() {
         data.message = "Form submit button was clicked!";
     }
+    // @endWire
 </cfscript>

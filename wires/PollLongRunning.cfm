@@ -14,11 +14,10 @@
 </cfoutput>
 
 <cfscript>
-    computed = {
-        "messages": function() {
-            return session.messages;
-        }
-    };
+    // @startWire
+    function messages() computed {
+        return session.messages;
+    }
 
     function onMount() {
         if ( !structKeyExists( session, "messages" ) ) {
@@ -38,4 +37,5 @@
     function reset() {
         session.messages = [];
     }
+    // @endWire
 </cfscript>

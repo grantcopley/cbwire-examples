@@ -22,6 +22,7 @@
 </cfoutput>
 
 <cfscript>
+    // @startWire
     data = {
         "selectedBackup": "",
         "backups": [],
@@ -45,4 +46,5 @@
         sleep( 5000 ); // Sleep to simulate restoring the database backup
         data.success = true;
     }
+    // @endWire
 </cfscript>

@@ -8,6 +8,7 @@
 </cfoutput>
 
 <cfscript>
+    // @startWire
     function redirectToURI() {
         return relocate( uri="/some-url" );
     }
@@ -25,4 +26,5 @@
             confirm: "Redirect successful"
         } );
     }
+    // @endWire
 </cfscript>

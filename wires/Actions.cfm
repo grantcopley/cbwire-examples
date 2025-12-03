@@ -12,6 +12,7 @@
 </cfoutput>
 
 <cfscript>
+    // @startWire
     // Data properties
     data = {
         "conference": "Into The Box"
@@ -30,4 +31,5 @@
     function resetConference() {
         reset( "conference" );
     }
+    // @endWire
 </cfscript>

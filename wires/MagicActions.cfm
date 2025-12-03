@@ -12,8 +12,10 @@
 </cfoutput>
 
 <cfscript>
+    // @startWire
     data = {
         "greeting": "",
         "isTrue": true
     };
+    // @endWire
 <cfscript>

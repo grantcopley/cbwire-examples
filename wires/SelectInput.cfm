@@ -21,6 +21,7 @@
 </cfoutput>
 
 <cfscript>
+    // @startWire
     data = {
         "hero": ""
     };
@@ -36,4 +37,5 @@
     function clear() {
         reset();
     }
+    // @endWire
 }</cfscript>
