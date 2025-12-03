@@ -26,7 +26,7 @@
         <a class="btn btn-primary w-100" href="/examples/QueryString">Query String</a>
     </div>
     <div class="col-3 pt-3">
-        <a class="btn btn-primary w-100" href="/examples/Relocate">Relocate</a>
+        <a class="btn btn-primary w-100" href="/examples/Redirect">Redirect</a>
     </div>
 
     <div class="col-12 mt-4">
