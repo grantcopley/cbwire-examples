@@ -1,23 +1,35 @@
 # CBWIRE Examples
 
-This app will get you up and running quickly with CBWIRE. Each example is self-documenting and provides full code examples, as well as the ability to interact with each example. Enjoy!
+Become a web development hero with CBWIRE!
 
-![Examples Screenshot](/includes/images/screenshot.png)
+Here you will find numerous CBWIRE examples that you can learn from and use in your own applications. Examples include:
 
-![Examples Screenshot](/includes/images/screenshot2.png)
+* Data Properties
+* Passing parameters to your components
+* Actions
+* Computed Properties
+* Data binding
+* Events and listeners
+* Query string binding
+* Relocating
+* Form inputs - text, textarea, radio, dropdowns, multi-select
+* Form validation
+* File Uploads
+* Loading and dirty states
+* Polling
+* and more... 
 
-## Installation
+## Screenshot
+![image](https://github.com/grantcopley/cbwire-examples/assets/1197835/d2523e16-e644-4af6-b536-ea283065f443)
 
-After cloning this repository, run this command using CommandBox to install all dependencies.
+## Requirements
 
-```
-box install
-```
+* CommandBox 5.8+
 
-You can start up a CFML server quickly using the command:
+## Getting Started
 
-```
-box server start
-```
+* Clone this repo `git clone git@github.com:grantcopley/cbwire-examples.git`
+* Use CommandBox to install dependencies `box install`
+* Start your CFML server `box server start --open`
 
-Then the app and examples should be accessible using http://localhost:60299/.
+After the server completes startup, your browser will open automatically.
