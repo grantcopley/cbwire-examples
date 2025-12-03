@@ -7,40 +7,42 @@
             Seconds: #seconds#
         </div>
         <div id="made-in-ny" wire:ignore></div>
-
-        <script>
-            document.addEventListener("livewire:load", function() {
-                const options = {
-                    id: 59777392,
-                    width: 640,
-                    loop: true
-                };
-            
-                const player = new Vimeo.Player('made-in-ny', options);
-                
-                player.setVolume(0);
-                
-                player.setCurrentTime( #seconds# );
-                
-                const myComponent = cbwire.find('#_id#');
-            
-                player.on( 'play', function() {
-                    myComponent.play();
-                } );
-
-                player.on( 'timeupdate', function( data ) {
-                    myComponent.track( data.seconds );
-                } );
-
-                myComponent.on( "someEvent", function() {
-                    alert('event fired');
-                } );
-
-                myComponent.emit( "someEvent" );
-            } );
-        </script>
     </div>
 </cfoutput>
+
+<cbwire:script>
+    <script>
+        document.addEventListener("livewire:initialized", function() {
+            const options = {
+                id: 59777392,
+                width: 640,
+                loop: true
+            };
+        
+            const player = new Vimeo.Player('made-in-ny', options);
+            
+            player.setVolume(0);
+            
+            player.setCurrentTime( #seconds# );
+            
+            const myComponent = Livewire.find('#_id#');
+        
+            player.on( 'play', function() {
+                myComponent.play();
+            } );
+
+            player.on( 'timeupdate', function( data ) {
+                myComponent.track( data.seconds );
+            } );
+
+            Livewire.on( "someEvent", function() {
+                alert('event fired');
+            } );
+
+            myComponent.dispatch( "someEvent" );
+        } );
+    </script>
+</cbwire:script>
 
 <cfscript>
     // @startWire
@@ -56,7 +58,7 @@
     }
 
     function play() {
-        emit( "someEvent" );
+        dispatch( "someEvent" );
         data.played = true;
     }
 

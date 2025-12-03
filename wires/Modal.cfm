@@ -42,18 +42,21 @@
 				</div>
 			</div>
 		</div>
-		<script>
-			document.addEventListener("livewire:load", function() {
-				cbwire.on( 'buttonPressed', function( task ) {
-					console.log("button presss!");
-					var myModalEl = document.getElementById('exampleModal');
-					var modal = bootstrap.Modal.getInstance(myModalEl);
-					modal.hide();
-				});
-			} );
-		</script>
 	</div>
 </cfoutput>
+
+<cbwire:script>
+	<script>
+		document.addEventListener("livewire:initialized", function() {
+			Livewire.on( 'buttonPressed', function( task ) {
+				console.log("button presss!");
+				var myModalEl = document.getElementById('exampleModal');
+				var modal = bootstrap.Modal.getInstance(myModalEl);
+				modal.hide();
+			});
+		} );
+	</script>
+</cbwire:script>
 
 <cfscript>
 	// @startWire
@@ -64,10 +67,10 @@
 	function sectionSelected(section){
 		data.selectedSection = section;
 	
-		// We emit a buttonPressed event
+		// We dispatch a buttonPressed event
 		// the js in the page listen to this event
 		// and close the modal
-		emit( "buttonPressed" );
+		dispatch( "buttonPressed" );
 	}
 	
 	function unselect(){
