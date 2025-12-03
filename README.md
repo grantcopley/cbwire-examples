@@ -67,7 +67,7 @@ This application demonstrates:
 
 ## 🎨 Screenshot
 
-![CBWIRE Examples Application](https://github.com/grantcopley/cbwire-examples/assets/1197835/d2523e16-e644-4af6-b536-ea283065f443)
+![CBWIRE Examples Application](screenshot.png)
 
 ## 🛠️ Requirements
 
