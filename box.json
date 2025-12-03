@@ -30,8 +30,8 @@
         "cbvalidation":"modules/cbvalidation/"
     },
     "dependencies":{
-        "coldbox":"6.x",
-        "cbwire": "3",
+        "coldbox":"8",
+        "cbwire":"be",
         "cbvalidation":"^4.3.0+24"
     },
     "scripts":{},
