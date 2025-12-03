@@ -10,7 +10,6 @@
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"></script>
 	<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/highlight.min.js"></script>
 	<script src="https://kit.fontawesome.com/7e32a713f5.js" crossorigin="anonymous"></script>
-	<script src="//unpkg.com/alpinejs" defer></script>
 	<script>hljs.highlightAll();</script>
 	<style type="text/css">
 		html {
