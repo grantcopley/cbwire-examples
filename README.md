@@ -14,6 +14,10 @@
 
 ---
 
+## 🎨 Screenshot
+
+![CBWIRE Examples Application](screenshot.png)
+
 ## 📖 Overview
 
 CBWIRE Examples is an interactive demonstration application showcasing the full capabilities of CBWIRE, a modern reactive component framework for ColdBox applications. This repository provides hands-on examples that illustrate best practices and patterns for building dynamic, reactive user interfaces in CFML.
@@ -65,14 +69,9 @@ This application demonstrates:
 ### 🎨 **Alpine.js Integration**
 - **Alpine x-data** - Combining CBWIRE with Alpine.js
 
-## 🎨 Screenshot
-
-![CBWIRE Examples Application](screenshot.png)
-
 ## 🛠️ Requirements
 
-- **CommandBox** 5.8 or higher
-- **ColdFusion** 2018+ or **Lucee** 5.3+
+- **CommandBox** 6.1 or higher
 - Modern web browser (Chrome, Firefox, Safari, Edge)
 
 ## 🚀 Quick Start
