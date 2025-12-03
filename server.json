@@ -5,9 +5,6 @@
         "cfengine":"lucee@5"
     },
     "web":{
-        "http":{
-            "port":"60299"
-        },
         "rewrites":{
             "enable":"true"
         }
