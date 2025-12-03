@@ -13,43 +13,44 @@
 </cfoutput>
 
 <cfscript>
+    // @startWire
     // Data properties
     data = {
         "clear": false
     };
 
     // Computed properties
-    computed = {
-        "conference": function() {
-            return "Into The Box " & year( now() );
-        },
-        "speakers": function() {
-            if ( data.clear ) {
-                return queryNew( "firstname,lastname", "varchar,varchar", [] );
-            }
-    
-            return queryNew( 
-                "firstname,lastname",
-                "varchar,varchar",
-                [
-                    {
-                        "firstname": "Abram",
-                        "lastname": "Adams"
-                    }, 
-                    {
-                        "firstname": "Brad",
-                        "lastname": "Wood"
-                    }, 
-                    {
-                        "firstname": "Brian",
-                        "lastname": "Rinaldi"
-                    } 
-                ]
-            );
+    function conference() computed {
+        return "Into The Box " & year( now() );
+    }
+
+    function speakers() computed {
+        if ( data.clear ) {
+            return queryNew( "firstname,lastname", "varchar,varchar", [] );
         }
+
+        return queryNew( 
+            "firstname,lastname",
+            "varchar,varchar",
+            [
+                {
+                    "firstname": "Abram",
+                    "lastname": "Adams"
+                }, 
+                {
+                    "firstname": "Brad",
+                    "lastname": "Wood"
+                }, 
+                {
+                    "firstname": "Brian",
+                    "lastname": "Rinaldi"
+                } 
+            ]
+        );
     }
 
     function clearSpeakers() {
         data.clear = true;
     }
+    // @endWire
 </cfscript>
