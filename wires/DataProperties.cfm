@@ -8,7 +8,7 @@
     // @startWire
     // Data properties
     data = {
-        "conference": "Into The Box 2022"
+        "conference": "Into The Box " & year( now() )
     };
     // @endWire
 </cfscript>

@@ -5,7 +5,7 @@
         </div>
         <div class="mt-4">
             <a href="##" wire:click.prevent="changeConference" type="button" class="btn btn-primary me-2">Change Conference</button>
-            <a href="##" wire:click.prevent="addYear( '2023' )" type="button" class="btn btn-primary me-2">Add Year</button>
+            <a href="##" wire:click.prevent="addYear( '#year( now() )#' )" type="button" class="btn btn-primary me-2">Add Year</button>
             <a href="##" wire:click.prevent="resetConference" class="btn btn-secondary">Reset</a>
         </div>
     </div>

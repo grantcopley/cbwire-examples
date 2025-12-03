@@ -34,11 +34,11 @@
 
         // Once you have the list of file names, add them to the 'backups' data property
         data.backups = [
-            "my-backup-2022-08-01.sql",
-            "my-backup-2022-08-05.sql",
-            "my-backup-2022-08-10.sql",
-            "my-backup-2022-08-15.sql",
-            "my-backup-2022-08-20.sql"
+            "my-backup-" & dateFormat( dateAdd( "d", -20, now() ), "yyyy-mm-dd" ) & ".sql",
+            "my-backup-" & dateFormat( dateAdd( "d", -15, now() ), "yyyy-mm-dd" ) & ".sql",
+            "my-backup-" & dateFormat( dateAdd( "d", -10, now() ), "yyyy-mm-dd" ) & ".sql",
+            "my-backup-" & dateFormat( dateAdd( "d", -5, now() ), "yyyy-mm-dd" ) & ".sql",
+            "my-backup-" & dateFormat( now(), "yyyy-mm-dd" ) & ".sql"
         ];
     }
 
