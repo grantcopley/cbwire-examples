@@ -18,4 +18,4 @@
         "isTrue": true
     };
     // @endWire
-<cfscript>
+</cfscript>

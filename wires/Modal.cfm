@@ -1,8 +1,8 @@
 <cfoutput>
 	<div>
-		<cfif args.selectedSection.len()>
+		<cfif selectedSection.len()>
 			<div>
-				Section selected: #args.selectedSection#
+				Section selected: #selectedSection#
 			</div>
 		</cfif>
 		<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="##exampleModal">

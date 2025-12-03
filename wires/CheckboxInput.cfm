@@ -2,7 +2,7 @@
     <div>
         <label>
             Toggle
-            <input wire:model="isChecked" type="checkbox" value="true">
+            <input wire:model.live="isChecked" type="checkbox" value="true">
         </label>
 
         <cfif isChecked>

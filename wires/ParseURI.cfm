@@ -2,7 +2,7 @@
 
 <cfoutput>
     <div>
-        <input type="text" wire:model="uri">
+        <input type="text" wire:model.live="uri">
 
         <cfif isObject( result )>
             <table width="500">

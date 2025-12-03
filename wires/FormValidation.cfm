@@ -1,6 +1,6 @@
 <cfoutput>
     <div>
-        <input wire:model="email" type="text" placeholder="Enter your email">
+        <input wire:model.live="email" type="text" placeholder="Enter your email">
         <button wire:click="addEmail">Add Email</button>
 
         <cfif success>

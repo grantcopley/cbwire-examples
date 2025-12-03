@@ -11,10 +11,11 @@
 </cfoutput>
 
 <cbwire:script>
+    <cfoutput>
     <script>
         document.addEventListener("livewire:initialized", function() {
             const options = {
-                id: 59777392,
+                id: 76979871,
                 width: 640,
                 loop: true
             };
@@ -42,6 +43,7 @@
             myComponent.dispatch( "someEvent" );
         } );
     </script>
+    </cfoutput>
 </cbwire:script>
 
 <cfscript>

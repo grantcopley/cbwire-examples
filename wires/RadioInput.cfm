@@ -2,8 +2,8 @@
     <div>
         <label>
             Is it Shark Week?
-            <input name="isSharkWeek" wire:model="isSharkWeek" type="radio" value="true"> Yes
-            <input name="isSharkWeek" wire:model="isSharkWeek" type="radio" value="false" checked> No
+            <input name="isSharkWeek" wire:model.live="isSharkWeek" type="radio" value="true"> Yes
+            <input name="isSharkWeek" wire:model.live="isSharkWeek" type="radio" value="false" checked> No
         </label>
 
         <cfif isSharkWeek>

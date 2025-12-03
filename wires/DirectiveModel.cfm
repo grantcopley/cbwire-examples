@@ -4,7 +4,7 @@
             Message: <span class="fw-bold">#message#</span>
         </div>
         <div class="mt-4">
-            <input wire:model="message" type="text">
+            <input wire:model.live="message" type="text">
         </div>
         <div class="mt-4">
             <textarea wire:model="message"></textarea>
